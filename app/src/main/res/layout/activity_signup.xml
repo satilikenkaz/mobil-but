@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_signup_isim"
+        android:layout_width="214dp"
+        android:layout_height="52dp"
+        android:background="#d3d3d3"
+        android:ems="10"
+        android:hint="İsim"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/et_signup_eposta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <EditText
+        android:id="@+id/et_signup_eposta"
+        android:layout_width="214dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="40dp"
+        android:background="#d3d3d3"
+        android:ems="10"
+        android:hint="E-Posta"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/et_signup_parola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/et_signup_parola"
+        android:layout_width="214dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="112dp"
+        android:background="#d3d3d3"
+        android:ems="10"
+        android:hint="Parola"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/bt_signup_kayitol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bt_signup_kayitol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:text="Kayıt Ol"
+        app:layout_constraintBottom_toTopOf="@+id/tv_signup_hesabinizvarmi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_signup_hesabinizvarmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Hesabınız var mı?"
+        app:layout_constraintBottom_toTopOf="@+id/tv_signup_girisyap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_signup_girisyap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="96dp"
+        android:onClick="loginClick"
+        android:text="Giriş Yap"
+        android:textColor="#0000ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

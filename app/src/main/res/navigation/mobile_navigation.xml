@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_mesajgonder">
+
+    <fragment
+        android:id="@+id/nav_grupolustur"
+        android:name="com.example.mobil_but.grupolustur"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_grupolustur" />
+
+    <fragment
+        android:id="@+id/nav_grubauyeekle"
+        android:name="com.example.mobil_but.grubauyeekle"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_grubauyeekle" />
+
+    <fragment
+        android:id="@+id/nav_mesajolustur"
+        android:name="com.example.mobil_but.mesajolustur"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_mesajolustur" />
+    <fragment
+        android:id="@+id/nav_mesajgonder"
+        android:name="com.example.mobil_but.mesajgonder"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_mesajgonder" />
+</navigation>

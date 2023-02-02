@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.splashactivity">
+
+    <TextView
+        android:id="@+id/tv_splash_isimno"
+        android:layout_width="360dp"
+        android:layout_height="29dp"
+        android:text="201813709014 Muhammed İbrahim Musab TÜRKMEN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_splash_logo"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="172dp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_splash_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/bt_splash_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:onClick="loginClick"
+        android:text="Giriş Yap"
+        app:layout_constraintBottom_toTopOf="@+id/bt_splash_signup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bt_splash_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="128dp"
+        android:onClick="signupClick"
+        android:text="Kayıt Ol"
+        app:layout_constraintBottom_toTopOf="@+id/tv_splash_isimno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_splash_uygulamaismi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wazz'up"
+        app:layout_constraintBottom_toTopOf="@+id/iv_splash_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.673" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "50810003687",
+    "project_id": "mobilbut-9ec8e",
+    "storage_bucket": "mobilbut-9ec8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50810003687:android:d2fe08b756c3ce7e728242",
+        "android_client_info": {
+          "package_name": "com.example.mobil_but"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50810003687-j844c5on92envmotcju59144gpsj9kqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM8uTczP4mmnnwu-ehZCFYMvtufIT91uo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50810003687-j844c5on92envmotcju59144gpsj9kqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
